@@ -1,0 +1,135 @@
+
+<!DOCTYPE html>
+    <html lang="en">
+
+    
+<!-- Mirrored from shreethemes.in/leaping/layouts/page-maintenance.html by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 17 Jun 2021 19:50:13 GMT -->
+<head>
+        <meta charset="utf-8" />
+        <title>Leaping - Creative Multipurpose Template</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="Premium bootstrap 5 Landing Page Template" />
+        <meta name="keywords" content="bootstrap 5, premium, marketing, multipurpose" />
+        <meta content="Shreethemes-studio" name="author" />
+        <meta content="support@shreethemes.in" name="Email" />
+        <meta content="https://shreethemes.in/" name="Website" />
+        <!-- favicon -->
+        <link rel="shortcut icon" href="images/favicon.ico">
+        <!-- Bootstrap -->
+        <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+        <!-- Icons -->
+        <link href="css/materialdesignicons.min.css" rel="stylesheet" type="text/css" />
+        <link rel="stylesheet" href="../../../unicons.iconscout.com/release/v4.0.0/css/line.css">
+        <!-- Main css --> 
+        <link href="css/style.min.css" rel="stylesheet" type="text/css" id="theme-opt" />
+        <link href="css/colors/default.css" rel="stylesheet" id="color-opt">
+
+    </head>
+
+    <body>
+        <!-- Loader -->
+        <div id="preloader">
+            <div id="status">
+                <div class="spinner">
+                    <div class="bounce1"></div>
+                    <div class="bounce2"></div>
+                    <div class="bounce3"></div>
+                </div>
+            </div>
+        </div>
+        <!-- Loader -->
+        
+        <div class="back-to-home rounded d-none d-sm-block">
+            <a href="index.html" class="text-white rounded d-inline-block text-center"><i class="mdi mdi-home"></i></a>
+        </div>
+
+        <!-- MAINTENANCE PAGE -->
+        <section class="bg-special d-flex align-items-center" data-jarallax='{"speed": 0.5}' style="background-image: url('images/maintenance.jpg');">
+            <div class="bg-overlay"></div>
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-md-12 text-center">
+                        <a href="javascript:void(0)" class="text-white logo h5">Leaping<span class="text-primary">.</span></a>
+                        <div class="text-uppercase display-3 fw-bold text-white mt-2 mb-4 maintenance">We Are Launching Soon</div>
+                        <p class="text-light mx-auto para-desc">Build responsive, mobile-first projects on the web with the world's most popular front-end component library.</p>
+                    </div><!--end col-->
+                </div><!--end row-->
+
+                <div class="row">
+                    <div class="col-md-12 text-center">
+                        <div class="text-center">
+                            <span id="maintenance" class="timer"></span><span class="d-block h6 text-uppercase text-white">Minutes</span>
+                            <!-- <div id="maintenance" class="mb-4 overflow-hidden text-center"></div> -->
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row mt-4 pt-2">
+                    <div class="col-12 text-center">
+                        <div class="subcribe-form">
+                            <form action="https://shreethemes.in/leaping/layouts/page_maintenance.html">
+                                <input name="email" id="email" type="email" class="rounded-pill" required="" placeholder="Your email :">
+                                <button type="submit" class="btn btn-primary rounded-pill">Subscribe</button>
+                            </form>
+                        </div>
+                    </div><!--end col-->
+                </div><!--end row-->
+            </div> <!-- end container -->
+        </section><!--end section-->
+        <!-- MAINTENANCE PAGE -->
+
+        <!-- Style switcher -->
+        <div id="style-switcher" class="bg-light border p-3 pt-2 pb-2" onclick="toggleSwitcher()">
+            <div>
+                <h6 class="title text-center">Select Your Color</h6>
+                <ul class="pattern">
+                    <li class="list-inline-item">
+                        <a class="color1" href="javascript: void(0);" onclick="setColor('default')"></a>
+                    </li>
+                    <li class="list-inline-item">
+                        <a class="color2" href="javascript: void(0);" onclick="setColor('blue')"></a>
+                    </li>
+                    <li class="list-inline-item">
+                        <a class="color3" href="javascript: void(0);" onclick="setColor('light-green')"></a>
+                    </li>
+                    <li class="list-inline-item">
+                        <a class="color4" href="javascript: void(0);" onclick="setColor('red')"></a>
+                    </li>
+                    <li class="list-inline-item">
+                        <a class="color5" href="javascript: void(0);" onclick="setColor('skyblue')"></a>
+                    </li>
+                    <li class="list-inline-item">
+                        <a class="color6" href="javascript: void(0);" onclick="setColor('yellow')"></a>
+                    </li>
+                </ul>
+
+                <h6 class="title text-center pt-3 mb-0 border-top">Theme Option</h6>
+                <ul class="text-center list-unstyled mb-0">
+                    <li class="d-grid"><a href="javascript:void(0)" class="btn btn-sm btn-block btn-primary rtl-version t-rtl-light mt-2" onclick="setTheme('style-rtl')">RTL</a></li>
+                    <li class="d-grid"><a href="javascript:void(0)" class="btn btn-sm btn-block btn-primary ltr-version t-ltr-light mt-2" onclick="setTheme('style')">LTR</a></li>
+                    <li class="d-grid"><a href="javascript:void(0)" class="btn btn-sm btn-block btn-primary dark-rtl-version t-rtl-dark mt-2" onclick="setTheme('style-dark-rtl')">RTL</a></li>
+                    <li class="d-grid"><a href="javascript:void(0)" class="btn btn-sm btn-block btn-primary dark-ltr-version t-ltr-dark mt-2" onclick="setTheme('style-dark')">LTR</a></li>
+                    <li class="d-grid"><a href="javascript:void(0)" class="btn btn-sm btn-block btn-dark dark-version t-dark mt-2" onclick="setTheme('style-dark')">Dark</a></li>
+                    <li class="d-grid"><a href="javascript:void(0)" class="btn btn-sm btn-block btn-dark light-version t-light mt-2" onclick="setTheme('style')">Light</a></li>
+                </ul>
+            </div>
+            <div class="bottom">
+                <a href="javascript: void(0);" class="settings bg-white shadow d-block"><i class="mdi mdi-cog ms-1 mdi-24px position-absolute mdi-spin text-primary"></i></a>
+            </div>
+        </div>
+        <!-- end Style switcher -->
+
+        <!-- javascript -->
+        <script src="js/bootstrap.bundle.min.js"></script>
+        <!-- maintenance -->
+        <script src="js/maintenance.init.js"></script>
+        <!-- Icons -->
+        <script src="js/feather.min.js"></script>
+        <!-- Icons -->
+        <script src="js/switcher.js"></script>
+        <!-- Main Js -->
+        <script src="js/app.js"></script>
+    </body>
+
+<!-- Mirrored from shreethemes.in/leaping/layouts/page-maintenance.html by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 17 Jun 2021 19:50:15 GMT -->
+</html>
